@@ -1,0 +1,197 @@
+body{
+    display:flex;
+    width:100%;
+    height:100%;
+    background-color: hsl(240, 49%, 18%);
+}
+@media(max-width:550px) {
+    body {
+        display:flex;
+        height:100%;
+        width:100%;
+    }
+    .container{
+        display:flex;
+        background-color:#14253d;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        width:400px;
+        border-radius:15px;
+        overflow: hidden;
+        flex-direction:column;
+        height:80vh;
+        align-items:center;
+        padding-top:25px;
+    }
+    .card-img-eq{
+        display:flex;
+        flex-direction:column;
+        width:350px;
+        border-radius:20px;
+    }
+    .card-img{
+        border-radius:15px;
+        width:100%;
+    }
+    .info-summary{
+        display:flex;
+        flex-direction:column;
+        width:90%;
+        justify-content:center;
+        height:250px;
+    }
+    .title{
+        color:white;
+        font-size:20px;
+    }
+    .paragraph{
+        color:hsl(0, 0%, 80%);
+        font-size:16px;
+        width:80%;
+    }
+    .container-buy{
+        display:flex;
+        justify-content:space-between;
+        width:100%;
+        border-bottom:1px solid hsl(0, 0%, 80%);
+    }
+    .icon-eth{
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        gap:10px;
+        height:40px;
+    }
+    .price{
+        color:aqua;
+    }
+    .clock{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        height: 40px;
+    }
+    .days-left{
+        color:hsl(0, 0%, 80%);
+    }
+    .profile{
+        display:flex;
+        flex-direction:row;
+        align-items: center;
+        gap:10px;
+        margin:10px;
+        padding-top:5px;
+    }
+    .about{
+        color:grey;
+    }
+    .about-jules{
+        color:hsl(0, 0%, 80%);
+    }
+    .card-img-av{
+        width:30px;
+        height:30px;
+        display:flex;
+        border:1px solid white;
+        border-radius:50%;
+    }
+}
+@media(min-width:850px) {
+
+body {
+    display: flex;
+    height: 100%;
+    width: 100%;
+} 
+.container {
+    display: flex;
+    background-color: #14253d;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    border-radius: 15px;
+    overflow: hidden;
+    flex-direction: column;
+    height: 70vh;
+    align-items: center;
+    padding-top: 25px;
+}    
+.card-img-eq {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}  
+.card-img {
+    border-radius:15px;
+    width: 100%;
+}  
+.info-summary {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    height: 250px;
+}   
+.title {
+    color: white;
+    font-size: 18px;
+}
+.paragraph {
+    color: hsl(0, 0%, 80%);
+    font-size: 16px;
+    width: 80%;
+    margin-top:0;
+}
+.container-buy {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid hsl(0, 0%, 80%);
+}
+.icon-eth {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    height: 40px;
+}
+.price {
+    color: aqua;
+}
+.clock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    height: 40px;
+}   
+.days-left {
+    color: hsl(0, 0%, 80%);
+}  
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    padding-top: 5px;
+}  
+.about {
+    color: grey;
+}
+.about-jules {
+    color: hsl(0, 0%, 80%);
+} 
+.card-img-av {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+}
